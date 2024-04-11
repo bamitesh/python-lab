@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: python_lab
+Version: 0.0.1
+Summary: This is a python lab project which includes various python modules.
+Home-page: https://github.com/bamitesh/python-lab.git
+Author: amitesh bhattacharya
+Author-email: Amitesh Bhattacharya <b.amitesh@outlook.com>
+Maintainer-email: Amitesh Bhattacharya <b.amitesh@outlook.com>
+License: GNU General Public License v3
+Project-URL: bugs, https://github.com/bamitesh/python_lab/issues
+Project-URL: changelog, https://github.com/bamitesh/python_lab/blob/master/changelog.md
+Project-URL: homepage, https://github.com/bamitesh/python_lab
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.rst
+Provides-Extra: dev
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+
